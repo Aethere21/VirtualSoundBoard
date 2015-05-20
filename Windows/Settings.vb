@@ -48,34 +48,29 @@
         UpdateLabelValues()
     End Sub
 
-    Private Sub comboMic_Click(sender As Object, e As EventArgs) Handles comboMic.Click
-        comboMic.Items.Clear()
-        Dim waveInDevices As Integer = NAudio.Wave.WaveIn.DeviceCount
-        For waveInDevice As Integer = 0 To waveInDevices - 1
-            Dim deviceInfo As NAudio.Wave.WaveInCapabilities = NAudio.Wave.WaveIn.GetCapabilities(waveInDevice)
-            comboMic.Items.Add(waveInDevice & ". " & deviceInfo.ProductName)
-        Next
-    End Sub
-
-    Private Sub comboSpeaker_Click(sender As Object, e As EventArgs) Handles comboSpeaker.Click
-        comboSpeaker.Items.Clear()
-        Dim waveOutDevices As Integer = NAudio.Wave.WaveOut.DeviceCount
-        For waveOutDevice As Integer = 0 To waveOutDevices - 1
-            Dim deviceInfo As NAudio.Wave.WaveOutCapabilities = NAudio.Wave.WaveOut.GetCapabilities(waveOutDevice)
-            comboSpeaker.Items.Add(waveOutDevice & ". " & deviceInfo.ProductName)
-        Next
-    End Sub
-
-    Private Sub comboVAD_Click(sender As Object, e As EventArgs) Handles comboVAD.Click
-        comboVAD.Items.Clear()
-        Dim waveOutDevices As Integer = NAudio.Wave.WaveOut.DeviceCount
-        For waveOutDevice As Integer = 0 To waveOutDevices - 1
-            Dim deviceInfo As NAudio.Wave.WaveOutCapabilities = NAudio.Wave.WaveOut.GetCapabilities(waveOutDevice)
-            comboVAD.Items.Add(waveOutDevice & ". " & deviceInfo.ProductName)
-        Next
-    End Sub
-
     Private Sub btnRefresh_Click(sender As Object, e As EventArgs) Handles btnRefresh.Click
         UpdateComboboxValues()
+    End Sub
+
+    'Could slightly optimize this, but eh.
+    Private Sub comboMic_ValueMemberChanged(sender As Object, e As EventArgs) Handles comboMic.SelectedValueChanged
+        If (Not comboMic.Text = "") Then
+            GlobalSettings.NameMicrophone = Split(comboMic.Text, ". ")(1)
+            GlobalSettings.Microphone = Split(comboMic.Text, ". ")(0)
+        End If
+    End Sub
+
+    Private Sub comboSpeaker_SelectedValueChanged(sender As Object, e As EventArgs) Handles comboSpeaker.SelectedValueChanged
+        If (Not comboSpeaker.Text = "") Then
+            GlobalSettings.NameSpeaker = Split(comboSpeaker.Text, ". ")(1)
+            GlobalSettings.Speaker = Split(comboSpeaker.Text, ". ")(0)
+        End If
+    End Sub
+
+    Private Sub comboVAD_SelectedValueChanged(sender As Object, e As EventArgs) Handles comboVAD.SelectedValueChanged
+        If (Not comboVAD.Text = "") Then
+            GlobalSettings.NameVirtualAudioDevice = Split(comboVAD.Text, ". ")(1)
+            GlobalSettings.VirtualAudioDevice = Split(comboVAD.Text, ". ")(0)
+        End If
     End Sub
 End Class

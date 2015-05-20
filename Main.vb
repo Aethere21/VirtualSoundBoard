@@ -30,6 +30,11 @@
         Settings.MdiParent = Me
         Settings.Show()
     End Sub
+
+    Private Sub tsWinControl_Click(sender As Object, e As EventArgs) Handles tsWinControl.Click
+        Control.MdiParent = Me
+        Control.Show()
+    End Sub
 #End Region
 
 #End Region

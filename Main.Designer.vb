@@ -65,24 +65,24 @@ Partial Class Main
         'tsFileOpen
         '
         Me.tsFileOpen.Name = "tsFileOpen"
-        Me.tsFileOpen.Size = New System.Drawing.Size(152, 22)
+        Me.tsFileOpen.Size = New System.Drawing.Size(148, 22)
         Me.tsFileOpen.Text = "Open Settings"
         '
         'tsFileSave
         '
         Me.tsFileSave.Name = "tsFileSave"
-        Me.tsFileSave.Size = New System.Drawing.Size(152, 22)
+        Me.tsFileSave.Size = New System.Drawing.Size(148, 22)
         Me.tsFileSave.Text = "Save Settings"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(145, 6)
         '
         'tsFileExit
         '
         Me.tsFileExit.Name = "tsFileExit"
-        Me.tsFileExit.Size = New System.Drawing.Size(152, 22)
+        Me.tsFileExit.Size = New System.Drawing.Size(148, 22)
         Me.tsFileExit.Text = "Exit"
         '
         'WindowsToolStripMenuItem
