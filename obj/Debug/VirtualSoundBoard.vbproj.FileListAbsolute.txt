@@ -1,0 +1,16 @@
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\VirtualSoundBoard.exe.config
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\VirtualSoundBoard.exe
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\VirtualSoundBoard.pdb
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\VirtualSoundBoard.xml
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.Resources.resources
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.vbproj.GenerateResource.Cache
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.exe
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.xml
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.pdb
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.Main.resources
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.Settings.resources
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.Control.resources
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\NAudio.dll
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\NAudio.xml
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.vbprojResolveAssemblyReference.cache
