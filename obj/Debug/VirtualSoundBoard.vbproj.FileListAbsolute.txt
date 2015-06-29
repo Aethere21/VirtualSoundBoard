@@ -14,3 +14,4 @@ C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Deb
 C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\NAudio.WindowsMediaFormat.dll
 C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\bin\Debug\NAudio.xml
 C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.vbprojResolveAssemblyReference.cache
+C:\Users\Hell\Desktop\Programming\VB\VirtualSoundBoard\VirtualSoundBoard\obj\Debug\VirtualSoundBoard.SoundBoard.resources

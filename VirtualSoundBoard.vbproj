@@ -52,15 +52,19 @@
     <Reference Include="NAudio.WindowsMediaFormat">
       <HintPath>..\..\..\..\NAudio\NAudio.WindowsMediaFormat.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -111,6 +115,12 @@
     <Compile Include="Windows\Settings.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Windows\SoundBoard.Designer.vb">
+      <DependentUpon>SoundBoard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\SoundBoard.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Main.resx">
@@ -127,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Settings.resx">
       <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\SoundBoard.resx">
+      <DependentUpon>SoundBoard.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

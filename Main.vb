@@ -35,6 +35,11 @@
         Control.MdiParent = Me
         Control.Show()
     End Sub
+
+    Private Sub tsWinSoundboard_Click(sender As Object, e As EventArgs) Handles tsWinSoundboard.Click
+        SoundBoard.MdiParent = Me
+        SoundBoard.Show()
+    End Sub
 #End Region
 
 #End Region

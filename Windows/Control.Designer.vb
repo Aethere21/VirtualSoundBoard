@@ -27,9 +27,9 @@ Partial Class Control
         Me.lblVAD = New System.Windows.Forms.Label()
         Me.lblMic = New System.Windows.Forms.Label()
         Me.lblSpeakers = New System.Windows.Forms.Label()
-        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
-        Me.ProgressBar2 = New System.Windows.Forms.ProgressBar()
-        Me.ProgressBar3 = New System.Windows.Forms.ProgressBar()
+        Me.pbarVAD = New System.Windows.Forms.ProgressBar()
+        Me.pbarMIC = New System.Windows.Forms.ProgressBar()
+        Me.pbarSpeakers = New System.Windows.Forms.ProgressBar()
         Me.SuspendLayout()
         '
         'Timer1
@@ -64,35 +64,35 @@ Partial Class Control
         Me.lblSpeakers.TabIndex = 2
         Me.lblSpeakers.Text = "Speakers:"
         '
-        'ProgressBar1
+        'pbarVAD
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(12, 25)
-        Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(251, 10)
-        Me.ProgressBar1.TabIndex = 3
+        Me.pbarVAD.Location = New System.Drawing.Point(12, 25)
+        Me.pbarVAD.Name = "pbarVAD"
+        Me.pbarVAD.Size = New System.Drawing.Size(251, 10)
+        Me.pbarVAD.TabIndex = 3
         '
-        'ProgressBar2
+        'pbarMIC
         '
-        Me.ProgressBar2.Location = New System.Drawing.Point(12, 54)
-        Me.ProgressBar2.Name = "ProgressBar2"
-        Me.ProgressBar2.Size = New System.Drawing.Size(251, 10)
-        Me.ProgressBar2.TabIndex = 4
+        Me.pbarMIC.Location = New System.Drawing.Point(12, 54)
+        Me.pbarMIC.Name = "pbarMIC"
+        Me.pbarMIC.Size = New System.Drawing.Size(251, 10)
+        Me.pbarMIC.TabIndex = 4
         '
-        'ProgressBar3
+        'pbarSpeakers
         '
-        Me.ProgressBar3.Location = New System.Drawing.Point(12, 83)
-        Me.ProgressBar3.Name = "ProgressBar3"
-        Me.ProgressBar3.Size = New System.Drawing.Size(251, 10)
-        Me.ProgressBar3.TabIndex = 5
+        Me.pbarSpeakers.Location = New System.Drawing.Point(12, 83)
+        Me.pbarSpeakers.Name = "pbarSpeakers"
+        Me.pbarSpeakers.Size = New System.Drawing.Size(251, 10)
+        Me.pbarSpeakers.TabIndex = 5
         '
         'Control
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(275, 105)
-        Me.Controls.Add(Me.ProgressBar3)
-        Me.Controls.Add(Me.ProgressBar2)
-        Me.Controls.Add(Me.ProgressBar1)
+        Me.Controls.Add(Me.pbarSpeakers)
+        Me.Controls.Add(Me.pbarMIC)
+        Me.Controls.Add(Me.pbarVAD)
         Me.Controls.Add(Me.lblSpeakers)
         Me.Controls.Add(Me.lblMic)
         Me.Controls.Add(Me.lblVAD)
@@ -108,7 +108,7 @@ Partial Class Control
     Friend WithEvents lblVAD As System.Windows.Forms.Label
     Friend WithEvents lblMic As System.Windows.Forms.Label
     Friend WithEvents lblSpeakers As System.Windows.Forms.Label
-    Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
-    Friend WithEvents ProgressBar2 As System.Windows.Forms.ProgressBar
-    Friend WithEvents ProgressBar3 As System.Windows.Forms.ProgressBar
+    Friend WithEvents pbarVAD As System.Windows.Forms.ProgressBar
+    Friend WithEvents pbarMIC As System.Windows.Forms.ProgressBar
+    Friend WithEvents pbarSpeakers As System.Windows.Forms.ProgressBar
 End Class

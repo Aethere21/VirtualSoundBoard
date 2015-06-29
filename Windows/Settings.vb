@@ -53,6 +53,7 @@
     End Sub
 
     'Could slightly optimize this, but eh.
+    'Also, not really a good way to do this.
     Private Sub comboMic_ValueMemberChanged(sender As Object, e As EventArgs) Handles comboMic.SelectedValueChanged
         If (Not comboMic.Text = "") Then
             GlobalSettings.NameMicrophone = Split(comboMic.Text, ". ")(1)
